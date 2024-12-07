@@ -26,10 +26,7 @@ fun ProfileView(modifier: Modifier) {
     val person by viewModel.person.collectAsStateWithLifecycle()
 
     Column(
-        modifier = modifier
-            .fillMaxSize()
-            .padding(16.dp),
-        horizontalAlignment = Alignment.CenterHorizontally
+        modifier = modifier.fillMaxSize(), horizontalAlignment = Alignment.CenterHorizontally
     ) {
         if (person != null) {
             AvatarComponent(person!!.avatar)
