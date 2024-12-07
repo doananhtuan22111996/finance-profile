@@ -24,15 +24,15 @@ jobs:
         run: chmod +x gradlew
 
       - name: Publish Artifact Presentation
-        run: ./gradlew :home:presentation:publishFeature-profile-presentationPublicationToPackagesRepository
+        run: ./gradlew :profile:presentation:publishFeature-profile-presentationPublicationToPackagesRepository
         continue-on-error: true
 
       - name: Publish Artifact Business
-        run: ./gradlew :home:business:publishFeature-profile-businessPublicationToPackagesRepository
+        run: ./gradlew :profile:business:publishFeature-profile-businessPublicationToPackagesRepository
         continue-on-error: true
 
       - name: Publish Artifact Api
-        run: ./gradlew :homeApi:publishFeature-profile-apiPublicationToPackagesRepository
+        run: ./gradlew :profileApi:publishFeature-profile-apiPublicationToPackagesRepository
         continue-on-error: true
 
       - name: Sending report to Telegram
