@@ -1,0 +1,27 @@
+[versions]
+corePlugins = "1.0.1"
+coreDomain = "1.0.0"
+coreData = "1.0.0"
+coreCompose = "1.0.1"
+
+financeTheme = "1.0.2"
+financeLaunch = "1.0.2"
+
+provideNetworking = "1.0.0"
+
+coilCompose = "3.0.4"
+
+[libraries]
+corePlugins = { group = "vn.core.libs", name = "plugins", version.ref = "corePlugins" }
+coreDomain = { group = "vn.core.libs", name = "domain", version.ref = "coreDomain" }
+coreData = { group = "vn.core.libs", name = "data", version.ref = "coreData" }
+coreCompose = { group = "vn.core.libs", name = "compose", version.ref = "coreCompose" }
+
+provideNetworking = { group = "vn.core.provider", name = "finance-networking", version.ref = "provideNetworking" }
+financeTheme = { group = "vn.finance.libs", name = "theme", version.ref = "financeTheme" }
+financeLaunch = { group = "vn.finance.libs", name = "feature-launch", version.ref = "financeLaunch" }
+
+coilCompose = { group = "io.coil-kt.coil3", name = "coil-compose", version.ref = "coilCompose" }
+coilNetwork = { group = "io.coil-kt.coil3", name = "coil-network-okhttp", version.ref = "coilCompose" }
+
+[plugins]
