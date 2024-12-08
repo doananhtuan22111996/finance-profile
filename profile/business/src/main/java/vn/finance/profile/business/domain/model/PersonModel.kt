@@ -6,5 +6,6 @@ data class PersonModel(
     val name: String,
     val email: String,
     val mobileNumber: String,
-    val avatar: String
+    val avatar: String,
+    val card: CardModel
 ) : BaseModel()
