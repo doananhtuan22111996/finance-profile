@@ -8,4 +8,7 @@
     <string name="your_mobile_number">Your Mobile Number</string>
     <string name="profile_avatar">Profile Avatar</string>
     <string name="unable_to_fetch_your_profile_information_please_check_your_internet_connection_and_try_again_if_the_issue_persists_contact_support">Unable to fetch your profile information. Please check your internet connection and try again. If the issue persists, contact support.</string>
+    <string name="expires">expires</string>
+    <string name="cvv">cvv</string>
+    <string name="card_holder">card holder</string>
 </resources>
